@@ -20,7 +20,7 @@ RUN wget -O - https://github.com/dalibo/pgbadger/archive/v${PGBADGER_VERSION}.ta
     && cd /tmp/pgbadger-${PGBADGER_VERSION} \
     && perl Makefile.PL INSTALLDIRS=vendor \
     && make \
-    && make instal \
+    && make install \
     && rm -rf /tmp/pgbadger-${PGBADGER_VERSION}
 
 COPY docker-entrypoint.sh /entrypoint.sh
