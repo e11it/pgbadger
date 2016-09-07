@@ -6,6 +6,7 @@ ENV PGBADGER_VERSION=9.0
 ENV PGBADGER_DATA=/data
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
+    ca-certificates \
     wget \
     autoconf \
     automake \
