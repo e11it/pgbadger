@@ -1,6 +1,6 @@
 # e11it/pgbadger
 
-[![](https://images.microbadger.com/badges/image/e11it/pgbadger.svg)]
+![](https://images.microbadger.com/badges/image/e11it/pgbadger.svg)
 
 ## Usage
 
