@@ -2,6 +2,12 @@
 
 [![](https://images.microbadger.com/badges/image/e11it/pgbadger.svg)]
 
+## Usage
+
+```
+$  docker run --rm -v $(pwd):/data e11it/pgbadger postgresql.log
+```
+
 ## Enable log
 
 ```sql
@@ -16,4 +22,4 @@ psql -U postgres -c "select pg_reload_conf()"
 
 ## Links
 
-- (pgbadger)[https://github.com/dalibo/pgbadger]
+- [pgbadger](https://github.com/dalibo/pgbadger)
