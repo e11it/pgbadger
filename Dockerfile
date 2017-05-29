@@ -2,7 +2,7 @@ FROM debian:jessie
 
 MAINTAINER im@e11it.ru
 
-ENV PGBADGER_VERSION=9.0
+ENV PGBADGER_VERSION=9.1
 ENV PGBADGER_DATA=/data
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
